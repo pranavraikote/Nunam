@@ -60,7 +60,7 @@ class Nunam:
     
         '''
         
-        return pd.concat([df1, df2])
+        return pd.concat([df1, df2], ignore_index = True)
     
     #@profile(filename = 'sampling_stats', stdout = False)
     @profile(immediate = True)
@@ -129,11 +129,3 @@ class Nunam:
         print(resampled_data_detail.head(10))
         print(resampled_data_vol.head(10))
         print(resampled_data_temp.head(10))
-        
-    
-'''
-if __name__ == '__main__':
-    n = Nunam()
-    print('Starting the loading and resampling of data')
-    n.run()    
-'''
