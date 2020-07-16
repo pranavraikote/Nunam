@@ -10,8 +10,8 @@ Simple repository for merging two worksheets on two workbooks and resmapling it 
 
 # Pre-requisites
 Download and install the following module: <br> 
-1)profilehooks - pip install profilehooks <br>
-2)pandas - pip install pandas <br>
+1. profilehooks - pip install profilehooks <br>
+2. pandas - pip install pandas <br>
 
 
 # Author
